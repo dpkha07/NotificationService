@@ -5,7 +5,7 @@
         "token": "{{ token }}",
         "data": {
             "{{ #each data }}": {
-                "phone_no": "{{ $phone_no }}",
+                "phone_no": "{{ phone_no }}",
                 "content": "{{ content }}",
                 "name": "{{ name }}"
             }
