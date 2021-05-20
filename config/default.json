@@ -1,0 +1,25 @@
+
+{
+    "template" : {
+        "url": "{{ url }}",
+        "token": "{{ token }}",
+        "data": {
+            "{{ #each data }}": {
+                "phone_no": "{{ $phone_no }}",
+                "content": "{{ content }}",
+                "name": "{{ name }}"
+            }
+        }
+    },
+
+    "aws" : {
+        "sqs": {
+            "notifQueue": {
+                "queueUrl": "https://sqs.ap-south-1.amazonaws.com/NotifSQS",
+                "region": "ap-south-1",
+                "accessKeyId": "test",
+                "secretAccessKey": "xyz"
+            }
+        }
+    }
+}
