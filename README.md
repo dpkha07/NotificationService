@@ -6,6 +6,7 @@ The API contains 1 endpoint and 1 consumer
 (API can be used to hit directly via front end or postman)
 or else push into SQS
 
+A CRON tab can be used to schedule the notifications and regularly check for requests to push into SQS
   
 
 
